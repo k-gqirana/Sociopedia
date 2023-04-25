@@ -8,7 +8,7 @@ function UserImage({ image, size = "60px" }) {
         width={size}
         height={size}
         alt="User"
-        src={`http://localhost:3001/assets/${image}`}
+        src={`https://sociopedia-api-cjxi.onrender.com/assets/${image}`}
       />
     </Box>
   );
